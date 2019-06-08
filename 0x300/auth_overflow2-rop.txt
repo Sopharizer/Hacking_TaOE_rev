@@ -1,0 +1,27 @@
+0x8001160: ret
+0x80012e0: repz ret
+0x80011da: leave; ret
+0x800115f: pop rbp; ret
+0x80012d3: pop rdi; ret
+0x80012d2: pop r15; ret
+0x8001263: add cl,cl; ret
+0x80012df: add bl,dh; ret
+0x80011d9: cld; leave; ret
+0x8001013: add esp,0x8; ret
+0x8001012: add rsp,0x8; ret
+0x80010e6: add [rax],al; ret
+0x80010e1: nop [rax+0x0]; ret
+0x8001125: add [rax],r8b; ret
+0x80012bc: fmul [rax-0x7d]; ret
+0x80012d1: pop rsi; pop r15; ret
+0x80012d0: pop r14; pop r15; ret
+0x80011d8: rex.RB cld; leave; ret
+0x80012de: add [rax],al; repz ret
+0x800125f: mov eax,0x0; leave; ret
+0x8001123: nop [rax+rax*1+0x0]; ret
+0x8001262: add [rax],al; leave; ret
+0x8001010: call rax; add rsp,0x8; ret
+0x800115d: add [rcx],al; pop rbp; ret
+0x80010df: jmp rax; nop [rax+0x0]; ret
+0x8001261: add [rax],al; add cl,cl; ret
+0x80012dd: add [rax],al; add bl,dh; ret
