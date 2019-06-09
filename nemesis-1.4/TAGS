@@ -1,0 +1,473 @@
+
+config.guess,72
+		main()main516,15639
+	main ()main639,19521
+main ()main1168,35288
+
+config.sub,0
+
+configure,369
+   function prototypes and stuff, but not '\xHH' hex character constants.prototypes2537,77480
+   function prototypes and stuff, but not '\xHH' hex character constants.prototypes3448,102530
+fabs ();fabs4438,130062
+inet_ntoa ();inet_ntoa4512,131971
+socket ();socket4586,133924
+hstrerror ();hstrerror4660,135892
+libnet_build_ip ();libnet_build_ip4736,137899
+
+install-sh,0
+
+missing,0
+
+mkinstalldirs,0
+
+src/nemesis-ip.c,867
+static ETHERhdr etherhdr;etherhdr18,351
+static IPhdr iphdr;iphdr19,377
+static FileData pd, ipod;pd20,397
+static FileData pd, ipod;ipod20,397
+static int got_payload;got_payload21,423
+static char *payloadfile = NULL;       /* payload file name */payloadfile22,447
+static char *ipoptionsfile = NULL;     /* IP options file name */  ipoptionsfile23,510
+static char *device = NULL;            /* Ethernet device */device24,578
+    static char *ifacetmp = NULL;ifacetmp26,658
+void nemesis_ip(int argc, char **argv)nemesis_ip36,890
+static void ip_initdata(void)ip_initdata85,2128
+static void ip_validatedata(void)ip_validatedata105,2975
+static void ip_usage(char *arg)ip_usage152,4313
+static void ip_cmdline(int argc, char **argv)ip_cmdline183,5243
+static int ip_exit(int code)ip_exit331,10282
+static void ip_verbose(void)ip_verbose356,10676
+
+src/getopt.c,446
+int	opterr = 1,		/* if error message should be printed */opterr42,1829
+	optind = 1,		/* index into parent argv vector */optind43,1887
+	optopt,			/* character checked for validity */optopt44,1937
+	optreset;		/* reset getopt */optreset45,1985
+char	*optarg;		/* argument associated with option */optarg46,2016
+#define	BADCH	BADCH48,2070
+#define	BADARG	BADARG49,2093
+#define	EMSG	EMSG50,2117
+getopt(nargc, nargv, ostr)getopt57,2194
+
+src/inet_aton.c,70
+int inet_aton(const char *cp, struct in_addr *addr)inet_aton86,3563
+
+src/memcmp.c,64
+memcmp(const void *s1, const void *s2, size_t n)memcmp43,1791
+
+src/nemesis-arp.c,1090
+static ETHERhdr etherhdr;etherhdr18,369
+static ARPhdr arphdr;arphdr19,395
+static FileData pd;pd20,417
+static int solarismode;solarismode21,437
+static int got_payload;got_payload22,461
+static int arp_src, arp_dst;    /* modify hardware addresses independantly arp_src23,485
+static int arp_src, arp_dst;    /* modify hardware addresses independantly arp_dst23,485
+static int rarp;                /* RARP */rarp25,616
+static int reply;               /* ARP/RARP request, 1 == reply */reply26,659
+static char *device = NULL;     /* Ethernet device */device27,726
+static char *file = NULL;       /* payload file name */file28,780
+    static char *ifacetmp = NULL;ifacetmp30,855
+void nemesis_arp(int argc, char **argv)nemesis_arp40,1093
+static void arp_initdata(void)arp_initdata73,1878
+static void arp_validatedata(void)arp_validatedata93,2887
+static void arp_usage(char *arg)arp_usage164,4747
+static void arp_cmdline(int argc, char **argv)arp_cmdline195,5810
+static int arp_exit(int code)arp_exit346,11164
+static void arp_verbose(void)arp_verbose365,11431
+
+src/nemesis-arp.h,51
+#define __NEMESIS_ARP_H____NEMESIS_ARP_H__13,294
+
+src/nemesis-dns.c,1138
+static ETHERhdr etherhdr;etherhdr18,364
+static IPhdr iphdr;iphdr19,390
+static TCPhdr tcphdr;tcphdr20,410
+static UDPhdr udphdr;udphdr21,432
+static DNShdr dnshdr;dnshdr22,454
+static FileData pd, ipod, tcpod;pd23,476
+static FileData pd, ipod, tcpod;ipod23,476
+static FileData pd, ipod, tcpod;tcpod23,476
+static int got_payload;got_payload24,509
+static char *payloadfile = NULL;       /* payload file name */payloadfile25,533
+static char *ipoptionsfile = NULL;     /* TCP options file name */ipoptionsfile26,596
+static char *tcpoptionsfile = NULL;    /* IP options file name */tcpoptionsfile27,663
+static char *device = NULL;            /* Ethernet device */device28,729
+    static char *ifacetmp = NULL;ifacetmp30,809
+void nemesis_dns(int argc, char **argv)nemesis_dns40,1047
+static void dns_initdata(void)dns_initdata114,3114
+static void dns_validatedata(void)dns_validatedata148,4754
+static void dns_usage(char *arg)dns_usage200,6282
+static void dns_cmdline(int argc, char **argv)dns_cmdline253,8057
+static int dns_exit(int code)dns_exit473,15979
+static void dns_verbose(void)dns_verbose504,16494
+
+src/nemesis-dns.h,97
+#define __NEMESIS_DNS_H____NEMESIS_DNS_H__13,295
+int state;  /* default to UDP */state35,687
+
+src/nemesis-ethernet.c,783
+static ETHERhdr etherhdr;etherhdr17,317
+static FileData pd;pd18,343
+static int got_payload;got_payload19,363
+static char *payloadfile = NULL;        /* payload file name */payloadfile20,387
+static char *device = NULL;            /* Ethernet device */device21,451
+    static char *ifacetmp = NULL;ifacetmp23,531
+void nemesis_ethernet(int argc, char **argv)nemesis_ethernet33,799
+static void ethernet_initdata(void)ethernet_initdata66,1571
+static void ethernet_validatedata(void)ethernet_validatedata77,1906
+static void ethernet_usage(char *arg)ethernet_usage109,2719
+static void ethernet_cmdline(int argc, char **argv)ethernet_cmdline131,3353
+static int ethernet_exit(int code)ethernet_exit231,6571
+static void ethernet_verbose(void)ethernet_verbose250,6857
+
+src/nemesis-ethernet.h,259
+#define __NEMESIS_ETHERNET_H____NEMESIS_ETHERNET_H__12,248
+#define ETHERTYPE_8021Q ETHERTYPE_8021Q35,669
+#define ETHERTYPE_IPV6 ETHERTYPE_IPV639,771
+#define ETHERTYPE_PPPOEDISC ETHERTYPE_PPPOEDISC43,866
+#define ETHERTYPE_PPPOE ETHERTYPE_PPPOE47,977
+
+src/nemesis-fileio.c,181
+static int nemesis_readfile(u_int8_t *memory, const char *file, nemesis_readfile45,1117
+int builddatafromfile(const size_t buffsize, FileData *memory, builddatafromfile124,3385
+
+src/nemesis-functions.c,1217
+const char *version = " -=- The NEMESIS Project Version 1.4";version51,1048
+char zero[ETHER_ADDR_LEN];zero53,1111
+char one[ETHER_ADDR_LEN] = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff};one54,1138
+char title[TITLEBUFFSIZE];title55,1203
+char errbuf[ERRBUFFSIZE];   /* all-purpose error buffer */errbuf56,1230
+char *validtcpflags = "FSRPAUEC-";   /* TCP flag index */validtcpflags57,1289
+int verbose;    /* verbosity */verbose58,1347
+int got_link;got_link59,1379
+int got_ipoptions;got_ipoptions60,1393
+int got_tcpoptions;got_tcpoptions61,1412
+u_int32_t xgetint32(const char *str)xgetint3271,1616
+u_int16_t xgetint16(const char *str)xgetint1694,2151
+u_int8_t xgetint8(const char *str)xgetint8117,2687
+int parsefragoptions(IPhdr *iph, char *str)parsefragoptions144,3303
+int nemesis_name_resolve(char *hostname, u_int32_t *address)nemesis_name_resolve262,5819
+int nemesis_check_link(ETHERhdr *eth, char *device)nemesis_check_link324,7507
+char *nemesis_lookup_linktype(int linktype)nemesis_lookup_linktype359,8371
+int nemesis_seedrand(void)nemesis_seedrand428,9756
+int winstrerror(LPSTR str, int size)winstrerror491,11070
+int nemesis_getdev(int devnum, char **device)nemesis_getdev526,11946
+
+src/nemesis-icmp.c,1326
+static ETHERhdr etherhdr;etherhdr18,368
+static IPhdr iphdr;iphdr19,394
+static IPhdr ipunreach;ipunreach20,414
+static ICMPhdr icmphdr;icmphdr21,438
+static UDPhdr udphdr;udphdr22,462
+static FileData pd, ipod, origod;pd23,484
+static FileData pd, ipod, origod;ipod23,484
+static FileData pd, ipod, origod;origod23,484
+static int got_payload;got_payload24,518
+static int got_mode, got_type, got_code;got_mode25,542
+static int got_mode, got_type, got_code;got_type25,542
+static int got_mode, got_type, got_code;got_code25,542
+static char *payloadfile = NULL;   /* payload file name */payloadfile26,583
+static char *ipoptionsfile = NULL; /* IP options file name */ipoptionsfile27,642
+static char *unroptionsfile = NULL;/* ICMP unreach IP options file */unroptionsfile28,704
+static char *device = NULL;        /* Ethernet device */device29,774
+    static char *ifacetmp = NULL;ifacetmp31,850
+void nemesis_icmp(int argc, char **argv)nemesis_icmp41,1094
+static void icmp_initdata(void)icmp_initdata98,2615
+static void icmp_validatedata(void)icmp_validatedata140,4918
+static void icmp_usage(char *arg)icmp_usage267,8947
+static void icmp_cmdline(int argc, char **argv)icmp_cmdline319,10923
+static int icmp_exit(int code)icmp_exit593,21504
+static void icmp_verbose(void)icmp_verbose624,22020
+
+src/nemesis-icmp.h,147
+#define __NEMESIS_ICMP_H____NEMESIS_ICMP_H__13,301
+int mode;   /* ICMP injection mode */mode45,936
+int got_origoptions;got_origoptions46,974
+
+src/nemesis-igmp.c,1107
+static ETHERhdr etherhdr;etherhdr18,368
+static IPhdr iphdr;iphdr19,394
+static IGMPhdr igmphdr;igmphdr20,414
+static FileData pd, ipod;pd21,438
+static FileData pd, ipod;ipod21,438
+static int got_payload;got_payload22,464
+static int got_group, got_type, got_code;got_group23,488
+static int got_group, got_type, got_code;got_type23,488
+static int got_group, got_type, got_code;got_code23,488
+static char *payloadfile = NULL;       /* payload file name */payloadfile24,530
+static char *ipoptionsfile = NULL;     /* IP options file name */ipoptionsfile25,593
+static char *device = NULL;            /* Ethernet device */device26,659
+    static char *ifacetmp = NULL;ifacetmp28,739
+void nemesis_igmp(int argc, char **argv)nemesis_igmp38,983
+static void igmp_initdata(void)igmp_initdata87,2256
+static void igmp_validatedata(void)igmp_validatedata110,3323
+static void igmp_usage(char *arg)igmp_usage168,5023
+static void igmp_cmdline(int argc, char **argv)igmp_cmdline202,6073
+static int igmp_exit(int code)igmp_exit365,11753
+static void igmp_verbose(void)igmp_verbose390,12150
+
+src/nemesis-igmp.h,53
+#define __NEMESIS_IGMP_H____NEMESIS_IGMP_H__13,299
+
+src/nemesis-ip.h,49
+#define __NEMESIS_IP_H____NEMESIS_IP_H__13,282
+
+src/nemesis-ospf.c,1331
+static ETHERhdr etherhdr;etherhdr18,362
+static IPhdr iphdr;iphdr19,388
+static OSPFhdr ospfhdr;ospfhdr20,408
+static OSPFHELLOhdr ospfhellohdr;ospfhellohdr21,432
+static LSAhdr lsahdr;lsahdr22,466
+static LSRhdr lsrhdr;lsrhdr23,488
+static LSUhdr lsuhdr;lsuhdr24,510
+static ASLSAhdr aslsahdr;aslsahdr25,532
+static RTRLSAhdr rtrlsahdr;rtrlsahdr26,558
+static DBDhdr dbdhdr;dbdhdr27,586
+static NETLSAhdr netlsahdr;netlsahdr28,608
+static SUMLSAhdr sumlsahdr;sumlsahdr29,636
+static FileData pd, ipod;pd30,664
+static FileData pd, ipod;ipod30,664
+static int got_payload;got_payload31,690
+static int got_mode;got_mode32,714
+static char *payloadfile = NULL;       /* payload file name */payloadfile33,735
+static char *ipoptionsfile = NULL;     /* IP options file name */ipoptionsfile34,798
+static char *device = NULL;            /* Ethernet device */device35,864
+    char *ifacetmp;ifacetmp37,944
+void nemesis_ospf(int argc, char **argv)nemesis_ospf47,1174
+static void ospf_initdata(void)ospf_initdata99,2524
+static void ospf_validatedata(void)ospf_validatedata119,3316
+static void ospf_usage(char *arg)ospf_usage172,4824
+static void ospf_cmdline(int argc, char **argv)ospf_cmdline233,6968
+static int ospf_exit(int code)ospf_exit523,19041
+static void ospf_verbose(void)ospf_verbose548,19437
+
+src/nemesis-ospf.h,1774
+#define __NEMESIS_OSPF_H____NEMESIS_OSPF_H__13,295
+u_short id,            /* IP id */id38,762
+        frag,          /* frag shit */frag39,797
+        mtusize,       /* Max dgram length (DBD) */mtusize40,836
+        num,           /* LSA_RTR num */num41,888
+        interval,      /* secs since last pkt sent */interval42,929
+        rtr_flags,     /* LSA_RTR flags */rtr_flags43,983
+        metric,        /* OSPF metric */metric44,1026
+        ospf_age;      /* OSPF advertisement age */ospf_age45,1067
+u_long source,         /* source address */source47,1120
+       dest,           /* destination address */dest48,1164
+       neighbor,       /* neighbor router */neighbor49,1213
+       as_fwd,         /* AS_EXT forward address */as_fwd50,1258
+       addrid,         /* advertising router id */addrid51,1310
+       addaid,         /* advertising area id */addaid52,1361
+       router,         /* advertising router */router53,1410
+       auth[2],        /* authentication type */auth54,1458
+       mask;           /* subnet mask (icmp_mask) */mask55,1507
+u_char priority,       /* OSPF priority */priority57,1561
+       exchange,       /* DBD exchange type */exchange58,1604
+       rtrtype,        /* LSA_RTR type */rtrtype59,1651
+       ooptions;       /* OSPF options */ooptions60,1693
+u_int dead_int,        /* dead router interval in secs */dead_int62,1736
+      as_tag,          /* AS_EXT tag */as_tag63,1794
+      seqnum,          /* seqnum for LSA */seqnum64,1834
+      bcastnum,        /* num of LSAs to bcast (LSU) */bcastnum65,1878
+      rtrdata,         /* LSA_RTR router data */rtrdata66,1934
+      rtrid;           /* router id for LSA */rtrid67,1983
+int mode;   /* OSPF injection mode */mode69,2031
+
+src/nemesis-printout.c,860
+void nemesis_hexdump(char *buf, u_int32_t len, int mode)nemesis_hexdump48,1001
+void nemesis_printeth(ETHERhdr *eth)nemesis_printeth112,2511
+void nemesis_printarp(ARPhdr *arp)nemesis_printarp164,3953
+void nemesis_printip(IPhdr *ip)nemesis_printip217,5488
+void nemesis_printtcp(TCPhdr *tcp)nemesis_printtcp573,13722
+void nemesis_printudp(UDPhdr *udp)nemesis_printudp615,14922
+void nemesis_printicmp(ICMPhdr *icmp, int mode)nemesis_printicmp630,15221
+void nemesis_printrip(RIPhdr *rip)nemesis_printrip838,21752
+void nemesis_printospf(OSPFhdr *ospf)nemesis_printospf907,23594
+void nemesis_maketitle(char *title, const char *module, const char *version)nemesis_maketitle977,25380
+void nemesis_printtitle(const char *title)nemesis_printtitle1001,26068
+void nemesis_device_failure(int mode, const char *device)nemesis_device_failure1019,26369
+
+src/nemesis-proto_arp.c,86
+int buildarp(ETHERhdr *eth, ARPhdr *arp, FileData *pd, char *device, buildarp15,329
+
+src/nemesis-proto_dns.c,95
+int builddns(ETHERhdr *eth, IPhdr *ip, TCPhdr *tcp, UDPhdr *udp, DNShdr *dns, builddns15,329
+
+src/nemesis-proto_ethernet.c,76
+int buildether(ETHERhdr *eth, FileData *pd, char *device)buildether14,282
+
+src/nemesis-proto_icmp.c,91
+int buildicmp(ETHERhdr *eth, IPhdr *ip, ICMPhdr *icmp, IPhdr *ipunreach, buildicmp15,333
+
+src/nemesis-proto_igmp.c,86
+int buildigmp(ETHERhdr *eth, IPhdr *ip, IGMPhdr *igmp, FileData *pd,buildigmp15,333
+
+src/nemesis-proto_ip.c,84
+int buildip(ETHERhdr *eth, IPhdr *ip, FileData *pd, FileData *ipod, buildip15,312
+
+src/nemesis-proto_ospf.c,87
+int buildospf(ETHERhdr *eth, IPhdr *ip, FileData *pd, FileData *ipod,buildospf15,333
+
+src/nemesis-proto_rip.c,82
+int buildrip(ETHERhdr *eth, IPhdr *ip, UDPhdr *udp, RIPhdr *rip, buildrip15,332
+
+src/nemesis-proto_tcp.c,83
+int buildtcp(ETHERhdr *eth, IPhdr *ip, TCPhdr *tcp, FileData *pd, buildtcp15,329
+
+src/nemesis-proto_udp.c,83
+int buildudp(ETHERhdr *eth, IPhdr *ip, UDPhdr *udp, FileData *pd, buildudp15,329
+
+src/nemesis-rip.c,1017
+static ETHERhdr etherhdr;etherhdr18,354
+static IPhdr iphdr;iphdr19,380
+static UDPhdr udphdr;udphdr20,400
+static RIPhdr riphdr;riphdr21,422
+static FileData pd, ipod;pd22,444
+static FileData pd, ipod;ipod22,444
+static int got_payload, got_domain;got_payload23,470
+static int got_payload, got_domain;got_domain23,470
+static char *payloadfile = NULL;       /* payload file name */payloadfile24,506
+static char *ipoptionsfile = NULL;     /* IP options file name */ipoptionsfile25,569
+static char *device = NULL;            /* Ethernet device */device26,635
+    static char *ifacetmp = NULL;ifacetmp28,715
+void nemesis_rip(int argc, char **argv)nemesis_rip38,953
+static void rip_initdata(void)rip_initdata87,2221
+static void rip_validatedata(void)rip_validatedata119,3851
+static void rip_usage(char *arg)rip_usage198,6243
+static void rip_cmdline(int argc, char **argv)rip_cmdline241,7620
+static int rip_exit(int code)rip_exit438,14749
+static void rip_verbose(void)rip_verbose463,15144
+
+src/nemesis-rip.h,51
+#define __NEMESIS_RIP_H____NEMESIS_RIP_H__13,295
+
+src/nemesis-tcp.c,1063
+static ETHERhdr etherhdr;etherhdr18,354
+static IPhdr iphdr;iphdr19,380
+static TCPhdr tcphdr;tcphdr20,400
+static FileData pd, ipod, tcpod;pd21,422
+static FileData pd, ipod, tcpod;ipod21,422
+static FileData pd, ipod, tcpod;tcpod21,422
+static int got_payload;got_payload22,455
+static char *payloadfile = NULL;       /* payload file name */payloadfile23,479
+static char *ipoptionsfile = NULL;     /* IP options file name */ipoptionsfile24,542
+static char *tcpoptionsfile = NULL;    /* IP options file name */tcpoptionsfile25,608
+static char *device = NULL;            /* Ethernet device */device26,674
+    static char *ifacetmp = NULL;ifacetmp28,754
+void nemesis_tcp(int argc, char **argv)nemesis_tcp38,992
+static void tcp_initdata(void)tcp_initdata94,2457
+static void tcp_validatedata(void)tcp_validatedata126,3996
+static void tcp_usage(char *arg)tcp_usage173,5342
+static void tcp_cmdline(int argc, char **argv)tcp_cmdline215,6693
+static int tcp_exit(int code)tcp_exit413,13618
+static void tcp_verbose(void)tcp_verbose444,14131
+
+src/nemesis-tcp.h,51
+#define __NEMESIS_TCP_H____NEMESIS_TCP_H__13,295
+
+src/nemesis-udp.c,903
+static ETHERhdr etherhdr;etherhdr18,364
+static IPhdr iphdr;iphdr19,390
+static UDPhdr udphdr;udphdr20,410
+static FileData pd, ipod;pd21,432
+static FileData pd, ipod;ipod21,432
+static int got_payload;got_payload22,458
+static char *payloadfile = NULL;   /* payload file name */payloadfile23,482
+static char *ipoptionsfile = NULL; /* IP options file name */ipoptionsfile24,541
+static char *device = NULL;        /* Ethernet device */device25,603
+    static char *ifacetmp = NULL;ifacetmp27,679
+void nemesis_udp(int argc, char **argv)nemesis_udp37,917
+static void udp_initdata(void)udp_initdata86,2180
+static void udp_validatedata(void)udp_validatedata109,3227
+static void udp_usage(char *arg)udp_usage155,4572
+static void udp_cmdline(int argc, char **argv)udp_cmdline188,5568
+static int udp_exit(int code)udp_exit339,10784
+static void udp_verbose(void)udp_verbose364,11179
+
+src/nemesis-udp.h,51
+#define __NEMESIS_UDP_H____NEMESIS_UDP_H__13,295
+
+src/nemesis.c,97
+int main(int argc, char **argv)main15,257
+void nemesis_usage(char *arg)nemesis_usage133,2956
+
+src/nemesis.h,3246
+#define __NEMESIS_H____NEMESIS_H__12,191
+#define IPTOS_LOWDELAY IPTOS_LOWDELAY21,317
+#define IPTOS_THROUGHPUT IPTOS_THROUGHPUT24,377
+#define IPTOS_RELIABILITY IPTOS_RELIABILITY27,440
+#define IPTOS_LOWCOST IPTOS_LOWCOST30,500
+#define TH_ECE TH_ECE33,549
+#define TH_CWR TH_CWR36,591
+#define ETHERTYPE_IPV6 ETHERTYPE_IPV640,642
+#define STPUTC(STPUTC43,680
+#define STPUTS(STPUTS44,710
+#define ARPBUFFSIZE ARPBUFFSIZE46,781
+#define DNSTCP_RAWBUFFSIZE DNSTCP_RAWBUFFSIZE48,807
+#define DNSTCP_LINKBUFFSIZE DNSTCP_LINKBUFFSIZE49,877
+#define DNSUDP_RAWBUFFSIZE DNSUDP_RAWBUFFSIZE50,947
+#define DNSUDP_LINKBUFFSIZE DNSUDP_LINKBUFFSIZE51,1009
+#define ETHERBUFFSIZE ETHERBUFFSIZE53,1080
+#define ICMP_RAWBUFFSIZE ICMP_RAWBUFFSIZE55,1138
+#define ICMP_LINKBUFFSIZE ICMP_LINKBUFFSIZE57,1262
+#define IGMP_RAWBUFFSIZE IGMP_RAWBUFFSIZE59,1333
+#define IGMP_LINKBUFFSIZE IGMP_LINKBUFFSIZE60,1395
+#define IP_RAWBUFFSIZE IP_RAWBUFFSIZE62,1466
+#define IP_LINKBUFFSIZE IP_LINKBUFFSIZE63,1528
+#define RIP_RAWBUFFSIZE RIP_RAWBUFFSIZE65,1599
+#define RIP_LINKBUFFSIZE RIP_LINKBUFFSIZE67,1722
+#define TCP_RAWBUFFSIZE TCP_RAWBUFFSIZE69,1793
+#define TCP_LINKBUFFSIZE TCP_LINKBUFFSIZE70,1863
+#define UDP_RAWBUFFSIZE UDP_RAWBUFFSIZE72,1934
+#define UDP_LINKBUFFSIZE UDP_LINKBUFFSIZE73,1996
+#define BUILD BUILD75,2067
+#define FP_MAX_ARGS FP_MAX_ARGS76,2141
+#define ERRBUFFSIZE ERRBUFFSIZE77,2216
+#define TITLEBUFFSIZE TITLEBUFFSIZE78,2240
+#define WINERRBUFFSIZE WINERRBUFFSIZE79,2265
+#define HEX_ASCII_DECODE HEX_ASCII_DECODE81,2294
+#define HEX_RAW_DECODE HEX_RAW_DECODE82,2324
+#define INJECTION_RAW INJECTION_RAW84,2353
+#define INJECTION_LINK INJECTION_LINK85,2380
+#define PAYLOADMODE PAYLOADMODE87,2409
+#define OPTIONSMODE OPTIONSMODE88,2431
+#define OPTIONSBUFFSIZE OPTIONSBUFFSIZE89,2453
+typedef struct libnet_arp_hdr ARPhdr;ARPhdr91,2481
+typedef struct libnet_as_lsa_hdr ASLSAhdr;ASLSAhdr92,2519
+typedef struct libnet_auth_hdr AUTHhdr;AUTHhdr93,2562
+typedef struct libnet_dbd_hdr DBDhdr;DBDhdr94,2602
+typedef struct libnet_dns_hdr DNShdr;DNShdr95,2640
+typedef struct libnet_ethernet_hdr ETHERhdr;ETHERhdr96,2678
+typedef struct libnet_icmp_hdr ICMPhdr;ICMPhdr97,2723
+typedef struct libnet_igmp_hdr IGMPhdr;IGMPhdr98,2763
+typedef struct libnet_ip_hdr IPhdr;IPhdr99,2803
+typedef struct libnet_lsa_hdr LSAhdr;LSAhdr100,2839
+typedef struct libnet_lsr_hdr LSRhdr;LSRhdr101,2877
+typedef struct libnet_lsu_hdr LSUhdr;LSUhdr102,2915
+typedef struct libnet_ospf_hdr OSPFhdr;OSPFhdr103,2953
+typedef struct libnet_ospf_hello_hdr OSPFHELLOhdr;OSPFHELLOhdr104,2993
+typedef struct libnet_net_lsa_hdr NETLSAhdr;NETLSAhdr105,3044
+typedef struct libnet_rip_hdr RIPhdr;RIPhdr106,3089
+typedef struct libnet_rtr_lsa_hdr RTRLSAhdr;RTRLSAhdr107,3127
+typedef struct libnet_sum_lsa_hdr SUMLSAhdr;SUMLSAhdr108,3172
+typedef struct libnet_tcp_hdr TCPhdr;TCPhdr109,3217
+typedef struct libnet_udp_hdr UDPhdr;UDPhdr110,3255
+typedef struct libnet_vrrp_hdr VRRPhdr;VRRPhdr111,3293
+typedef struct _FileData_FileData125,3646
+    int32_t file_s;         /* file size */file_s127,3673
+    u_int8_t *file_mem;     /* pointer to file memory */file_mem128,3717
+} FileData;FileData129,3774
+
+src/strlcat.c,64
+strlcat(char *dst, const char *src, size_t siz)strlcat37,1400
+
+src/strlcpy.c,64
+strlcpy(char *dst, const char *src, size_t siz)strlcpy35,1286
+
+src/strsep.c,38
+strsep(stringp, delim)strsep54,2315
+
+src/W32_fzs.c,141
+void* GetAdapterFromList(void* device,int index)GetAdapterFromList29,1259
+void PrintDeviceList(const char* device)PrintDeviceList59,1848

@@ -1,0 +1,382 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARPBUFFSIZE	src/nemesis.h	46;"	d
+ARPhdr	src/nemesis.h	/^typedef struct libnet_arp_hdr ARPhdr;$/;"	t	typeref:struct:libnet_arp_hdr
+ASLSAhdr	src/nemesis.h	/^typedef struct libnet_as_lsa_hdr ASLSAhdr;$/;"	t	typeref:struct:libnet_as_lsa_hdr
+AUTHhdr	src/nemesis.h	/^typedef struct libnet_auth_hdr AUTHhdr;$/;"	t	typeref:struct:libnet_auth_hdr
+BADARG	src/getopt.c	49;"	d	file:
+BADCH	src/getopt.c	48;"	d	file:
+BUILD	src/nemesis.h	75;"	d
+DBDhdr	src/nemesis.h	/^typedef struct libnet_dbd_hdr DBDhdr;$/;"	t	typeref:struct:libnet_dbd_hdr
+DNSTCP_LINKBUFFSIZE	src/nemesis.h	49;"	d
+DNSTCP_RAWBUFFSIZE	src/nemesis.h	48;"	d
+DNSUDP_LINKBUFFSIZE	src/nemesis.h	51;"	d
+DNSUDP_RAWBUFFSIZE	src/nemesis.h	50;"	d
+DNShdr	src/nemesis.h	/^typedef struct libnet_dns_hdr DNShdr;$/;"	t	typeref:struct:libnet_dns_hdr
+EMSG	src/getopt.c	50;"	d	file:
+ERRBUFFSIZE	src/nemesis.h	77;"	d
+ETHERBUFFSIZE	src/nemesis.h	53;"	d
+ETHERTYPE_8021Q	src/nemesis-ethernet.h	35;"	d
+ETHERTYPE_IPV6	src/nemesis-ethernet.h	39;"	d
+ETHERTYPE_IPV6	src/nemesis.h	40;"	d
+ETHERTYPE_PPPOE	src/nemesis-ethernet.h	47;"	d
+ETHERTYPE_PPPOEDISC	src/nemesis-ethernet.h	43;"	d
+ETHERhdr	src/nemesis.h	/^typedef struct libnet_ethernet_hdr ETHERhdr;$/;"	t	typeref:struct:libnet_ethernet_hdr
+FP_MAX_ARGS	src/nemesis.h	76;"	d
+FileData	src/nemesis.h	/^} FileData;$/;"	t	typeref:struct:_FileData
+GetAdapterFromList	src/W32_fzs.c	/^void* GetAdapterFromList(void* device,int index)$/;"	f
+HEX_ASCII_DECODE	src/nemesis.h	81;"	d
+HEX_RAW_DECODE	src/nemesis.h	82;"	d
+ICMP_LINKBUFFSIZE	src/nemesis.h	57;"	d
+ICMP_RAWBUFFSIZE	src/nemesis.h	55;"	d
+ICMPhdr	src/nemesis.h	/^typedef struct libnet_icmp_hdr ICMPhdr;$/;"	t	typeref:struct:libnet_icmp_hdr
+IGMP_LINKBUFFSIZE	src/nemesis.h	60;"	d
+IGMP_RAWBUFFSIZE	src/nemesis.h	59;"	d
+IGMPhdr	src/nemesis.h	/^typedef struct libnet_igmp_hdr IGMPhdr;$/;"	t	typeref:struct:libnet_igmp_hdr
+INJECTION_LINK	src/nemesis.h	85;"	d
+INJECTION_RAW	src/nemesis.h	84;"	d
+IPTOS_LOWCOST	src/nemesis.h	30;"	d
+IPTOS_LOWDELAY	src/nemesis.h	21;"	d
+IPTOS_RELIABILITY	src/nemesis.h	27;"	d
+IPTOS_THROUGHPUT	src/nemesis.h	24;"	d
+IP_LINKBUFFSIZE	src/nemesis.h	63;"	d
+IP_RAWBUFFSIZE	src/nemesis.h	62;"	d
+IPhdr	src/nemesis.h	/^typedef struct libnet_ip_hdr IPhdr;$/;"	t	typeref:struct:libnet_ip_hdr
+LSAhdr	src/nemesis.h	/^typedef struct libnet_lsa_hdr LSAhdr;$/;"	t	typeref:struct:libnet_lsa_hdr
+LSRhdr	src/nemesis.h	/^typedef struct libnet_lsr_hdr LSRhdr;$/;"	t	typeref:struct:libnet_lsr_hdr
+LSUhdr	src/nemesis.h	/^typedef struct libnet_lsu_hdr LSUhdr;$/;"	t	typeref:struct:libnet_lsu_hdr
+NETLSAhdr	src/nemesis.h	/^typedef struct libnet_net_lsa_hdr NETLSAhdr;$/;"	t	typeref:struct:libnet_net_lsa_hdr
+OPTIONSBUFFSIZE	src/nemesis.h	89;"	d
+OPTIONSMODE	src/nemesis.h	88;"	d
+OSPFHELLOhdr	src/nemesis.h	/^typedef struct libnet_ospf_hello_hdr OSPFHELLOhdr;$/;"	t	typeref:struct:libnet_ospf_hello_hdr
+OSPFhdr	src/nemesis.h	/^typedef struct libnet_ospf_hdr OSPFhdr;$/;"	t	typeref:struct:libnet_ospf_hdr
+PAYLOADMODE	src/nemesis.h	87;"	d
+PrintDeviceList	src/W32_fzs.c	/^void PrintDeviceList(const char* device)$/;"	f
+RIP_LINKBUFFSIZE	src/nemesis.h	67;"	d
+RIP_RAWBUFFSIZE	src/nemesis.h	65;"	d
+RIPhdr	src/nemesis.h	/^typedef struct libnet_rip_hdr RIPhdr;$/;"	t	typeref:struct:libnet_rip_hdr
+RTRLSAhdr	src/nemesis.h	/^typedef struct libnet_rtr_lsa_hdr RTRLSAhdr;$/;"	t	typeref:struct:libnet_rtr_lsa_hdr
+STPUTC	src/nemesis.h	43;"	d
+STPUTS	src/nemesis.h	44;"	d
+SUMLSAhdr	src/nemesis.h	/^typedef struct libnet_sum_lsa_hdr SUMLSAhdr;$/;"	t	typeref:struct:libnet_sum_lsa_hdr
+TCP_LINKBUFFSIZE	src/nemesis.h	70;"	d
+TCP_RAWBUFFSIZE	src/nemesis.h	69;"	d
+TCPhdr	src/nemesis.h	/^typedef struct libnet_tcp_hdr TCPhdr;$/;"	t	typeref:struct:libnet_tcp_hdr
+TH_CWR	src/nemesis.h	36;"	d
+TH_ECE	src/nemesis.h	33;"	d
+TITLEBUFFSIZE	src/nemesis.h	78;"	d
+UDP_LINKBUFFSIZE	src/nemesis.h	73;"	d
+UDP_RAWBUFFSIZE	src/nemesis.h	72;"	d
+UDPhdr	src/nemesis.h	/^typedef struct libnet_udp_hdr UDPhdr;$/;"	t	typeref:struct:libnet_udp_hdr
+VRRPhdr	src/nemesis.h	/^typedef struct libnet_vrrp_hdr VRRPhdr;$/;"	t	typeref:struct:libnet_vrrp_hdr
+WINERRBUFFSIZE	src/nemesis.h	79;"	d
+_FileData	src/nemesis.h	/^typedef struct _FileData$/;"	s
+__NEMESIS_ARP_H__	src/nemesis-arp.h	13;"	d
+__NEMESIS_DNS_H__	src/nemesis-dns.h	13;"	d
+__NEMESIS_ETHERNET_H__	src/nemesis-ethernet.h	12;"	d
+__NEMESIS_H__	src/nemesis.h	12;"	d
+__NEMESIS_ICMP_H__	src/nemesis-icmp.h	13;"	d
+__NEMESIS_IGMP_H__	src/nemesis-igmp.h	13;"	d
+__NEMESIS_IP_H__	src/nemesis-ip.h	13;"	d
+__NEMESIS_OSPF_H__	src/nemesis-ospf.h	13;"	d
+__NEMESIS_RIP_H__	src/nemesis-rip.h	13;"	d
+__NEMESIS_TCP_H__	src/nemesis-tcp.h	13;"	d
+__NEMESIS_UDP_H__	src/nemesis-udp.h	13;"	d
+addaid	src/nemesis-ospf.h	/^       addaid,         \/* advertising area id *\/$/;"	v
+addrid	src/nemesis-ospf.h	/^       addrid,         \/* advertising router id *\/$/;"	v
+arp_cmdline	src/nemesis-arp.c	/^static void arp_cmdline(int argc, char **argv)$/;"	f	file:
+arp_dst	src/nemesis-arp.c	/^static int arp_src, arp_dst;    \/* modify hardware addresses independantly $/;"	v	file:
+arp_exit	src/nemesis-arp.c	/^static int arp_exit(int code)$/;"	f	file:
+arp_initdata	src/nemesis-arp.c	/^static void arp_initdata(void)$/;"	f	file:
+arp_src	src/nemesis-arp.c	/^static int arp_src, arp_dst;    \/* modify hardware addresses independantly $/;"	v	file:
+arp_usage	src/nemesis-arp.c	/^static void arp_usage(char *arg)$/;"	f	file:
+arp_validatedata	src/nemesis-arp.c	/^static void arp_validatedata(void)$/;"	f	file:
+arp_verbose	src/nemesis-arp.c	/^static void arp_verbose(void)$/;"	f	file:
+arphdr	src/nemesis-arp.c	/^static ARPhdr arphdr;$/;"	v	file:
+as_fwd	src/nemesis-ospf.h	/^       as_fwd,         \/* AS_EXT forward address *\/$/;"	v
+as_tag	src/nemesis-ospf.h	/^      as_tag,          \/* AS_EXT tag *\/$/;"	v
+aslsahdr	src/nemesis-ospf.c	/^static ASLSAhdr aslsahdr;$/;"	v	file:
+auth	src/nemesis-ospf.h	/^       auth[2],        \/* authentication type *\/$/;"	v
+bcastnum	src/nemesis-ospf.h	/^      bcastnum,        \/* num of LSAs to bcast (LSU) *\/$/;"	v
+buildarp	src/nemesis-proto_arp.c	/^int buildarp(ETHERhdr *eth, ARPhdr *arp, FileData *pd, char *device, $/;"	f
+builddatafromfile	src/nemesis-fileio.c	/^int builddatafromfile(const size_t buffsize, FileData *memory, $/;"	f
+builddns	src/nemesis-proto_dns.c	/^int builddns(ETHERhdr *eth, IPhdr *ip, TCPhdr *tcp, UDPhdr *udp, DNShdr *dns, $/;"	f
+buildether	src/nemesis-proto_ethernet.c	/^int buildether(ETHERhdr *eth, FileData *pd, char *device)$/;"	f
+buildicmp	src/nemesis-proto_icmp.c	/^int buildicmp(ETHERhdr *eth, IPhdr *ip, ICMPhdr *icmp, IPhdr *ipunreach, $/;"	f
+buildigmp	src/nemesis-proto_igmp.c	/^int buildigmp(ETHERhdr *eth, IPhdr *ip, IGMPhdr *igmp, FileData *pd,$/;"	f
+buildip	src/nemesis-proto_ip.c	/^int buildip(ETHERhdr *eth, IPhdr *ip, FileData *pd, FileData *ipod, $/;"	f
+buildospf	src/nemesis-proto_ospf.c	/^int buildospf(ETHERhdr *eth, IPhdr *ip, FileData *pd, FileData *ipod,$/;"	f
+buildrip	src/nemesis-proto_rip.c	/^int buildrip(ETHERhdr *eth, IPhdr *ip, UDPhdr *udp, RIPhdr *rip, $/;"	f
+buildtcp	src/nemesis-proto_tcp.c	/^int buildtcp(ETHERhdr *eth, IPhdr *ip, TCPhdr *tcp, FileData *pd, $/;"	f
+buildudp	src/nemesis-proto_udp.c	/^int buildudp(ETHERhdr *eth, IPhdr *ip, UDPhdr *udp, FileData *pd, $/;"	f
+dbdhdr	src/nemesis-ospf.c	/^static DBDhdr dbdhdr;$/;"	v	file:
+dead_int	src/nemesis-ospf.h	/^u_int dead_int,        \/* dead router interval in secs *\/$/;"	v
+dest	src/nemesis-ospf.h	/^       dest,           \/* destination address *\/$/;"	v
+device	src/nemesis-arp.c	/^static char *device = NULL;     \/* Ethernet device *\/$/;"	v	file:
+device	src/nemesis-dns.c	/^static char *device = NULL;            \/* Ethernet device *\/$/;"	v	file:
+device	src/nemesis-ethernet.c	/^static char *device = NULL;            \/* Ethernet device *\/$/;"	v	file:
+device	src/nemesis-icmp.c	/^static char *device = NULL;        \/* Ethernet device *\/$/;"	v	file:
+device	src/nemesis-igmp.c	/^static char *device = NULL;            \/* Ethernet device *\/$/;"	v	file:
+device	src/nemesis-ip.c	/^static char *device = NULL;            \/* Ethernet device *\/$/;"	v	file:
+device	src/nemesis-ospf.c	/^static char *device = NULL;            \/* Ethernet device *\/$/;"	v	file:
+device	src/nemesis-rip.c	/^static char *device = NULL;            \/* Ethernet device *\/$/;"	v	file:
+device	src/nemesis-tcp.c	/^static char *device = NULL;            \/* Ethernet device *\/$/;"	v	file:
+device	src/nemesis-udp.c	/^static char *device = NULL;        \/* Ethernet device *\/$/;"	v	file:
+dns_cmdline	src/nemesis-dns.c	/^static void dns_cmdline(int argc, char **argv)$/;"	f	file:
+dns_exit	src/nemesis-dns.c	/^static int dns_exit(int code)$/;"	f	file:
+dns_initdata	src/nemesis-dns.c	/^static void dns_initdata(void)$/;"	f	file:
+dns_usage	src/nemesis-dns.c	/^static void dns_usage(char *arg)$/;"	f	file:
+dns_validatedata	src/nemesis-dns.c	/^static void dns_validatedata(void)$/;"	f	file:
+dns_verbose	src/nemesis-dns.c	/^static void dns_verbose(void)$/;"	f	file:
+dnshdr	src/nemesis-dns.c	/^static DNShdr dnshdr;$/;"	v	file:
+errbuf	src/nemesis-functions.c	/^char errbuf[ERRBUFFSIZE];   \/* all-purpose error buffer *\/$/;"	v
+etherhdr	src/nemesis-arp.c	/^static ETHERhdr etherhdr;$/;"	v	file:
+etherhdr	src/nemesis-dns.c	/^static ETHERhdr etherhdr;$/;"	v	file:
+etherhdr	src/nemesis-ethernet.c	/^static ETHERhdr etherhdr;$/;"	v	file:
+etherhdr	src/nemesis-icmp.c	/^static ETHERhdr etherhdr;$/;"	v	file:
+etherhdr	src/nemesis-igmp.c	/^static ETHERhdr etherhdr;$/;"	v	file:
+etherhdr	src/nemesis-ip.c	/^static ETHERhdr etherhdr;$/;"	v	file:
+etherhdr	src/nemesis-ospf.c	/^static ETHERhdr etherhdr;$/;"	v	file:
+etherhdr	src/nemesis-rip.c	/^static ETHERhdr etherhdr;$/;"	v	file:
+etherhdr	src/nemesis-tcp.c	/^static ETHERhdr etherhdr;$/;"	v	file:
+etherhdr	src/nemesis-udp.c	/^static ETHERhdr etherhdr;$/;"	v	file:
+ethernet_cmdline	src/nemesis-ethernet.c	/^static void ethernet_cmdline(int argc, char **argv)$/;"	f	file:
+ethernet_exit	src/nemesis-ethernet.c	/^static int ethernet_exit(int code)$/;"	f	file:
+ethernet_initdata	src/nemesis-ethernet.c	/^static void ethernet_initdata(void)$/;"	f	file:
+ethernet_usage	src/nemesis-ethernet.c	/^static void ethernet_usage(char *arg)$/;"	f	file:
+ethernet_validatedata	src/nemesis-ethernet.c	/^static void ethernet_validatedata(void)$/;"	f	file:
+ethernet_verbose	src/nemesis-ethernet.c	/^static void ethernet_verbose(void)$/;"	f	file:
+exchange	src/nemesis-ospf.h	/^       exchange,       \/* DBD exchange type *\/$/;"	v
+fabs	configure	/^fabs ();$/;"	f
+file	src/nemesis-arp.c	/^static char *file = NULL;       \/* payload file name *\/$/;"	v	file:
+file_mem	src/nemesis.h	/^    u_int8_t *file_mem;     \/* pointer to file memory *\/$/;"	m	struct:_FileData
+file_s	src/nemesis.h	/^    int32_t file_s;         \/* file size *\/$/;"	m	struct:_FileData
+frag	src/nemesis-ospf.h	/^        frag,          \/* frag shit *\/$/;"	v
+getopt	src/getopt.c	/^getopt(nargc, nargv, ostr)$/;"	f
+got_code	src/nemesis-icmp.c	/^static int got_mode, got_type, got_code;$/;"	v	file:
+got_code	src/nemesis-igmp.c	/^static int got_group, got_type, got_code;$/;"	v	file:
+got_domain	src/nemesis-rip.c	/^static int got_payload, got_domain;$/;"	v	file:
+got_group	src/nemesis-igmp.c	/^static int got_group, got_type, got_code;$/;"	v	file:
+got_ipoptions	src/nemesis-functions.c	/^int got_ipoptions;$/;"	v
+got_link	src/nemesis-functions.c	/^int got_link;$/;"	v
+got_mode	src/nemesis-icmp.c	/^static int got_mode, got_type, got_code;$/;"	v	file:
+got_mode	src/nemesis-ospf.c	/^static int got_mode;$/;"	v	file:
+got_origoptions	src/nemesis-icmp.h	/^int got_origoptions;$/;"	v
+got_payload	src/nemesis-arp.c	/^static int got_payload;$/;"	v	file:
+got_payload	src/nemesis-dns.c	/^static int got_payload;$/;"	v	file:
+got_payload	src/nemesis-ethernet.c	/^static int got_payload;$/;"	v	file:
+got_payload	src/nemesis-icmp.c	/^static int got_payload;$/;"	v	file:
+got_payload	src/nemesis-igmp.c	/^static int got_payload;$/;"	v	file:
+got_payload	src/nemesis-ip.c	/^static int got_payload;$/;"	v	file:
+got_payload	src/nemesis-ospf.c	/^static int got_payload;$/;"	v	file:
+got_payload	src/nemesis-rip.c	/^static int got_payload, got_domain;$/;"	v	file:
+got_payload	src/nemesis-tcp.c	/^static int got_payload;$/;"	v	file:
+got_payload	src/nemesis-udp.c	/^static int got_payload;$/;"	v	file:
+got_tcpoptions	src/nemesis-functions.c	/^int got_tcpoptions;$/;"	v
+got_type	src/nemesis-icmp.c	/^static int got_mode, got_type, got_code;$/;"	v	file:
+got_type	src/nemesis-igmp.c	/^static int got_group, got_type, got_code;$/;"	v	file:
+hstrerror	configure	/^hstrerror ();$/;"	f
+icmp_cmdline	src/nemesis-icmp.c	/^static void icmp_cmdline(int argc, char **argv)$/;"	f	file:
+icmp_exit	src/nemesis-icmp.c	/^static int icmp_exit(int code)$/;"	f	file:
+icmp_initdata	src/nemesis-icmp.c	/^static void icmp_initdata(void)$/;"	f	file:
+icmp_usage	src/nemesis-icmp.c	/^static void icmp_usage(char *arg)$/;"	f	file:
+icmp_validatedata	src/nemesis-icmp.c	/^static void icmp_validatedata(void)$/;"	f	file:
+icmp_verbose	src/nemesis-icmp.c	/^static void icmp_verbose(void)$/;"	f	file:
+icmphdr	src/nemesis-icmp.c	/^static ICMPhdr icmphdr;$/;"	v	file:
+id	src/nemesis-ospf.h	/^u_short id,            \/* IP id *\/$/;"	v
+ifacetmp	src/nemesis-arp.c	/^    static char *ifacetmp = NULL;$/;"	v	file:
+ifacetmp	src/nemesis-dns.c	/^    static char *ifacetmp = NULL;$/;"	v	file:
+ifacetmp	src/nemesis-ethernet.c	/^    static char *ifacetmp = NULL;$/;"	v	file:
+ifacetmp	src/nemesis-icmp.c	/^    static char *ifacetmp = NULL;$/;"	v	file:
+ifacetmp	src/nemesis-igmp.c	/^    static char *ifacetmp = NULL;$/;"	v	file:
+ifacetmp	src/nemesis-ip.c	/^    static char *ifacetmp = NULL;$/;"	v	file:
+ifacetmp	src/nemesis-ospf.c	/^    char *ifacetmp;$/;"	v
+ifacetmp	src/nemesis-rip.c	/^    static char *ifacetmp = NULL;$/;"	v	file:
+ifacetmp	src/nemesis-tcp.c	/^    static char *ifacetmp = NULL;$/;"	v	file:
+ifacetmp	src/nemesis-udp.c	/^    static char *ifacetmp = NULL;$/;"	v	file:
+igmp_cmdline	src/nemesis-igmp.c	/^static void igmp_cmdline(int argc, char **argv)$/;"	f	file:
+igmp_exit	src/nemesis-igmp.c	/^static int igmp_exit(int code)$/;"	f	file:
+igmp_initdata	src/nemesis-igmp.c	/^static void igmp_initdata(void)$/;"	f	file:
+igmp_usage	src/nemesis-igmp.c	/^static void igmp_usage(char *arg)$/;"	f	file:
+igmp_validatedata	src/nemesis-igmp.c	/^static void igmp_validatedata(void)$/;"	f	file:
+igmp_verbose	src/nemesis-igmp.c	/^static void igmp_verbose(void)$/;"	f	file:
+igmphdr	src/nemesis-igmp.c	/^static IGMPhdr igmphdr;$/;"	v	file:
+inet_aton	src/inet_aton.c	/^int inet_aton(const char *cp, struct in_addr *addr)$/;"	f
+inet_ntoa	configure	/^inet_ntoa ();$/;"	f
+interval	src/nemesis-ospf.h	/^        interval,      \/* secs since last pkt sent *\/$/;"	v
+ip_cmdline	src/nemesis-ip.c	/^static void ip_cmdline(int argc, char **argv)$/;"	f	file:
+ip_exit	src/nemesis-ip.c	/^static int ip_exit(int code)$/;"	f	file:
+ip_initdata	src/nemesis-ip.c	/^static void ip_initdata(void)$/;"	f	file:
+ip_usage	src/nemesis-ip.c	/^static void ip_usage(char *arg)$/;"	f	file:
+ip_validatedata	src/nemesis-ip.c	/^static void ip_validatedata(void)$/;"	f	file:
+ip_verbose	src/nemesis-ip.c	/^static void ip_verbose(void)$/;"	f	file:
+iphdr	src/nemesis-dns.c	/^static IPhdr iphdr;$/;"	v	file:
+iphdr	src/nemesis-icmp.c	/^static IPhdr iphdr;$/;"	v	file:
+iphdr	src/nemesis-igmp.c	/^static IPhdr iphdr;$/;"	v	file:
+iphdr	src/nemesis-ip.c	/^static IPhdr iphdr;$/;"	v	file:
+iphdr	src/nemesis-ospf.c	/^static IPhdr iphdr;$/;"	v	file:
+iphdr	src/nemesis-rip.c	/^static IPhdr iphdr;$/;"	v	file:
+iphdr	src/nemesis-tcp.c	/^static IPhdr iphdr;$/;"	v	file:
+iphdr	src/nemesis-udp.c	/^static IPhdr iphdr;$/;"	v	file:
+ipod	src/nemesis-dns.c	/^static FileData pd, ipod, tcpod;$/;"	v	file:
+ipod	src/nemesis-icmp.c	/^static FileData pd, ipod, origod;$/;"	v	file:
+ipod	src/nemesis-igmp.c	/^static FileData pd, ipod;$/;"	v	file:
+ipod	src/nemesis-ip.c	/^static FileData pd, ipod;$/;"	v	file:
+ipod	src/nemesis-ospf.c	/^static FileData pd, ipod;$/;"	v	file:
+ipod	src/nemesis-rip.c	/^static FileData pd, ipod;$/;"	v	file:
+ipod	src/nemesis-tcp.c	/^static FileData pd, ipod, tcpod;$/;"	v	file:
+ipod	src/nemesis-udp.c	/^static FileData pd, ipod;$/;"	v	file:
+ipoptionsfile	src/nemesis-dns.c	/^static char *ipoptionsfile = NULL;     \/* TCP options file name *\/$/;"	v	file:
+ipoptionsfile	src/nemesis-icmp.c	/^static char *ipoptionsfile = NULL; \/* IP options file name *\/$/;"	v	file:
+ipoptionsfile	src/nemesis-igmp.c	/^static char *ipoptionsfile = NULL;     \/* IP options file name *\/$/;"	v	file:
+ipoptionsfile	src/nemesis-ip.c	/^static char *ipoptionsfile = NULL;     \/* IP options file name *\/  $/;"	v	file:
+ipoptionsfile	src/nemesis-ospf.c	/^static char *ipoptionsfile = NULL;     \/* IP options file name *\/$/;"	v	file:
+ipoptionsfile	src/nemesis-rip.c	/^static char *ipoptionsfile = NULL;     \/* IP options file name *\/$/;"	v	file:
+ipoptionsfile	src/nemesis-tcp.c	/^static char *ipoptionsfile = NULL;     \/* IP options file name *\/$/;"	v	file:
+ipoptionsfile	src/nemesis-udp.c	/^static char *ipoptionsfile = NULL; \/* IP options file name *\/$/;"	v	file:
+ipunreach	src/nemesis-icmp.c	/^static IPhdr ipunreach;$/;"	v	file:
+libnet_build_ip	configure	/^libnet_build_ip ();$/;"	f
+lsahdr	src/nemesis-ospf.c	/^static LSAhdr lsahdr;$/;"	v	file:
+lsrhdr	src/nemesis-ospf.c	/^static LSRhdr lsrhdr;$/;"	v	file:
+lsuhdr	src/nemesis-ospf.c	/^static LSUhdr lsuhdr;$/;"	v	file:
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	src/nemesis.c	/^int main(int argc, char **argv)$/;"	f
+mask	src/nemesis-ospf.h	/^       mask;           \/* subnet mask (icmp_mask) *\/$/;"	v
+memcmp	src/memcmp.c	/^memcmp(const void *s1, const void *s2, size_t n)$/;"	f
+metric	src/nemesis-ospf.h	/^        metric,        \/* OSPF metric *\/$/;"	v
+mode	src/nemesis-icmp.h	/^int mode;   \/* ICMP injection mode *\/$/;"	v
+mode	src/nemesis-ospf.h	/^int mode;   \/* OSPF injection mode *\/$/;"	v
+mtusize	src/nemesis-ospf.h	/^        mtusize,       \/* Max dgram length (DBD) *\/$/;"	v
+neighbor	src/nemesis-ospf.h	/^       neighbor,       \/* neighbor router *\/$/;"	v
+nemesis_arp	src/nemesis-arp.c	/^void nemesis_arp(int argc, char **argv)$/;"	f
+nemesis_check_link	src/nemesis-functions.c	/^int nemesis_check_link(ETHERhdr *eth, char *device)$/;"	f
+nemesis_device_failure	src/nemesis-printout.c	/^void nemesis_device_failure(int mode, const char *device)$/;"	f
+nemesis_dns	src/nemesis-dns.c	/^void nemesis_dns(int argc, char **argv)$/;"	f
+nemesis_ethernet	src/nemesis-ethernet.c	/^void nemesis_ethernet(int argc, char **argv)$/;"	f
+nemesis_getdev	src/nemesis-functions.c	/^int nemesis_getdev(int devnum, char **device)$/;"	f
+nemesis_hexdump	src/nemesis-printout.c	/^void nemesis_hexdump(char *buf, u_int32_t len, int mode)$/;"	f
+nemesis_icmp	src/nemesis-icmp.c	/^void nemesis_icmp(int argc, char **argv)$/;"	f
+nemesis_igmp	src/nemesis-igmp.c	/^void nemesis_igmp(int argc, char **argv)$/;"	f
+nemesis_ip	src/nemesis-ip.c	/^void nemesis_ip(int argc, char **argv)$/;"	f
+nemesis_lookup_linktype	src/nemesis-functions.c	/^char *nemesis_lookup_linktype(int linktype)$/;"	f
+nemesis_maketitle	src/nemesis-printout.c	/^void nemesis_maketitle(char *title, const char *module, const char *version)$/;"	f
+nemesis_name_resolve	src/nemesis-functions.c	/^int nemesis_name_resolve(char *hostname, u_int32_t *address)$/;"	f
+nemesis_ospf	src/nemesis-ospf.c	/^void nemesis_ospf(int argc, char **argv)$/;"	f
+nemesis_printarp	src/nemesis-printout.c	/^void nemesis_printarp(ARPhdr *arp)$/;"	f
+nemesis_printeth	src/nemesis-printout.c	/^void nemesis_printeth(ETHERhdr *eth)$/;"	f
+nemesis_printicmp	src/nemesis-printout.c	/^void nemesis_printicmp(ICMPhdr *icmp, int mode)$/;"	f
+nemesis_printip	src/nemesis-printout.c	/^void nemesis_printip(IPhdr *ip)$/;"	f
+nemesis_printospf	src/nemesis-printout.c	/^void nemesis_printospf(OSPFhdr *ospf)$/;"	f
+nemesis_printrip	src/nemesis-printout.c	/^void nemesis_printrip(RIPhdr *rip)$/;"	f
+nemesis_printtcp	src/nemesis-printout.c	/^void nemesis_printtcp(TCPhdr *tcp)$/;"	f
+nemesis_printtitle	src/nemesis-printout.c	/^void nemesis_printtitle(const char *title)$/;"	f
+nemesis_printudp	src/nemesis-printout.c	/^void nemesis_printudp(UDPhdr *udp)$/;"	f
+nemesis_readfile	src/nemesis-fileio.c	/^static int nemesis_readfile(u_int8_t *memory, const char *file, $/;"	f	file:
+nemesis_rip	src/nemesis-rip.c	/^void nemesis_rip(int argc, char **argv)$/;"	f
+nemesis_seedrand	src/nemesis-functions.c	/^int nemesis_seedrand(void)$/;"	f
+nemesis_tcp	src/nemesis-tcp.c	/^void nemesis_tcp(int argc, char **argv)$/;"	f
+nemesis_udp	src/nemesis-udp.c	/^void nemesis_udp(int argc, char **argv)$/;"	f
+nemesis_usage	src/nemesis.c	/^void nemesis_usage(char *arg)$/;"	f
+netlsahdr	src/nemesis-ospf.c	/^static NETLSAhdr netlsahdr;$/;"	v	file:
+num	src/nemesis-ospf.h	/^        num,           \/* LSA_RTR num *\/$/;"	v
+one	src/nemesis-functions.c	/^char one[ETHER_ADDR_LEN] = {0xff, 0xff, 0xff, 0xff, 0xff, 0xff};$/;"	v
+ooptions	src/nemesis-ospf.h	/^       ooptions;       \/* OSPF options *\/$/;"	v
+optarg	src/getopt.c	/^char	*optarg;		\/* argument associated with option *\/$/;"	v
+opterr	src/getopt.c	/^int	opterr = 1,		\/* if error message should be printed *\/$/;"	v
+optind	src/getopt.c	/^	optind = 1,		\/* index into parent argv vector *\/$/;"	v
+optopt	src/getopt.c	/^	optopt,			\/* character checked for validity *\/$/;"	v
+optreset	src/getopt.c	/^	optreset;		\/* reset getopt *\/$/;"	v
+origod	src/nemesis-icmp.c	/^static FileData pd, ipod, origod;$/;"	v	file:
+ospf_age	src/nemesis-ospf.h	/^        ospf_age;      \/* OSPF advertisement age *\/$/;"	v
+ospf_cmdline	src/nemesis-ospf.c	/^static void ospf_cmdline(int argc, char **argv)$/;"	f	file:
+ospf_exit	src/nemesis-ospf.c	/^static int ospf_exit(int code)$/;"	f	file:
+ospf_initdata	src/nemesis-ospf.c	/^static void ospf_initdata(void)$/;"	f	file:
+ospf_usage	src/nemesis-ospf.c	/^static void ospf_usage(char *arg)$/;"	f	file:
+ospf_validatedata	src/nemesis-ospf.c	/^static void ospf_validatedata(void)$/;"	f	file:
+ospf_verbose	src/nemesis-ospf.c	/^static void ospf_verbose(void)$/;"	f	file:
+ospfhdr	src/nemesis-ospf.c	/^static OSPFhdr ospfhdr;$/;"	v	file:
+ospfhellohdr	src/nemesis-ospf.c	/^static OSPFHELLOhdr ospfhellohdr;$/;"	v	file:
+parsefragoptions	src/nemesis-functions.c	/^int parsefragoptions(IPhdr *iph, char *str)$/;"	f
+payloadfile	src/nemesis-dns.c	/^static char *payloadfile = NULL;       \/* payload file name *\/$/;"	v	file:
+payloadfile	src/nemesis-ethernet.c	/^static char *payloadfile = NULL;        \/* payload file name *\/$/;"	v	file:
+payloadfile	src/nemesis-icmp.c	/^static char *payloadfile = NULL;   \/* payload file name *\/$/;"	v	file:
+payloadfile	src/nemesis-igmp.c	/^static char *payloadfile = NULL;       \/* payload file name *\/$/;"	v	file:
+payloadfile	src/nemesis-ip.c	/^static char *payloadfile = NULL;       \/* payload file name *\/$/;"	v	file:
+payloadfile	src/nemesis-ospf.c	/^static char *payloadfile = NULL;       \/* payload file name *\/$/;"	v	file:
+payloadfile	src/nemesis-rip.c	/^static char *payloadfile = NULL;       \/* payload file name *\/$/;"	v	file:
+payloadfile	src/nemesis-tcp.c	/^static char *payloadfile = NULL;       \/* payload file name *\/$/;"	v	file:
+payloadfile	src/nemesis-udp.c	/^static char *payloadfile = NULL;   \/* payload file name *\/$/;"	v	file:
+pd	src/nemesis-arp.c	/^static FileData pd;$/;"	v	file:
+pd	src/nemesis-dns.c	/^static FileData pd, ipod, tcpod;$/;"	v	file:
+pd	src/nemesis-ethernet.c	/^static FileData pd;$/;"	v	file:
+pd	src/nemesis-icmp.c	/^static FileData pd, ipod, origod;$/;"	v	file:
+pd	src/nemesis-igmp.c	/^static FileData pd, ipod;$/;"	v	file:
+pd	src/nemesis-ip.c	/^static FileData pd, ipod;$/;"	v	file:
+pd	src/nemesis-ospf.c	/^static FileData pd, ipod;$/;"	v	file:
+pd	src/nemesis-rip.c	/^static FileData pd, ipod;$/;"	v	file:
+pd	src/nemesis-tcp.c	/^static FileData pd, ipod, tcpod;$/;"	v	file:
+pd	src/nemesis-udp.c	/^static FileData pd, ipod;$/;"	v	file:
+priority	src/nemesis-ospf.h	/^u_char priority,       \/* OSPF priority *\/$/;"	v
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+rarp	src/nemesis-arp.c	/^static int rarp;                \/* RARP *\/$/;"	v	file:
+reply	src/nemesis-arp.c	/^static int reply;               \/* ARP\/RARP request, 1 == reply *\/$/;"	v	file:
+rip_cmdline	src/nemesis-rip.c	/^static void rip_cmdline(int argc, char **argv)$/;"	f	file:
+rip_exit	src/nemesis-rip.c	/^static int rip_exit(int code)$/;"	f	file:
+rip_initdata	src/nemesis-rip.c	/^static void rip_initdata(void)$/;"	f	file:
+rip_usage	src/nemesis-rip.c	/^static void rip_usage(char *arg)$/;"	f	file:
+rip_validatedata	src/nemesis-rip.c	/^static void rip_validatedata(void)$/;"	f	file:
+rip_verbose	src/nemesis-rip.c	/^static void rip_verbose(void)$/;"	f	file:
+riphdr	src/nemesis-rip.c	/^static RIPhdr riphdr;$/;"	v	file:
+router	src/nemesis-ospf.h	/^       router,         \/* advertising router *\/$/;"	v
+rtr_flags	src/nemesis-ospf.h	/^        rtr_flags,     \/* LSA_RTR flags *\/$/;"	v
+rtrdata	src/nemesis-ospf.h	/^      rtrdata,         \/* LSA_RTR router data *\/$/;"	v
+rtrid	src/nemesis-ospf.h	/^      rtrid;           \/* router id for LSA *\/$/;"	v
+rtrlsahdr	src/nemesis-ospf.c	/^static RTRLSAhdr rtrlsahdr;$/;"	v	file:
+rtrtype	src/nemesis-ospf.h	/^       rtrtype,        \/* LSA_RTR type *\/$/;"	v
+seqnum	src/nemesis-ospf.h	/^      seqnum,          \/* seqnum for LSA *\/$/;"	v
+socket	configure	/^socket ();$/;"	f
+solarismode	src/nemesis-arp.c	/^static int solarismode;$/;"	v	file:
+source	src/nemesis-ospf.h	/^u_long source,         \/* source address *\/$/;"	v
+state	src/nemesis-dns.h	/^int state;  \/* default to UDP *\/$/;"	v
+strlcat	src/strlcat.c	/^strlcat(char *dst, const char *src, size_t siz)$/;"	f
+strlcpy	src/strlcpy.c	/^strlcpy(char *dst, const char *src, size_t siz)$/;"	f
+strsep	src/strsep.c	/^strsep(stringp, delim)$/;"	f
+sumlsahdr	src/nemesis-ospf.c	/^static SUMLSAhdr sumlsahdr;$/;"	v	file:
+tcp_cmdline	src/nemesis-tcp.c	/^static void tcp_cmdline(int argc, char **argv)$/;"	f	file:
+tcp_exit	src/nemesis-tcp.c	/^static int tcp_exit(int code)$/;"	f	file:
+tcp_initdata	src/nemesis-tcp.c	/^static void tcp_initdata(void)$/;"	f	file:
+tcp_usage	src/nemesis-tcp.c	/^static void tcp_usage(char *arg)$/;"	f	file:
+tcp_validatedata	src/nemesis-tcp.c	/^static void tcp_validatedata(void)$/;"	f	file:
+tcp_verbose	src/nemesis-tcp.c	/^static void tcp_verbose(void)$/;"	f	file:
+tcphdr	src/nemesis-dns.c	/^static TCPhdr tcphdr;$/;"	v	file:
+tcphdr	src/nemesis-tcp.c	/^static TCPhdr tcphdr;$/;"	v	file:
+tcpod	src/nemesis-dns.c	/^static FileData pd, ipod, tcpod;$/;"	v	file:
+tcpod	src/nemesis-tcp.c	/^static FileData pd, ipod, tcpod;$/;"	v	file:
+tcpoptionsfile	src/nemesis-dns.c	/^static char *tcpoptionsfile = NULL;    \/* IP options file name *\/$/;"	v	file:
+tcpoptionsfile	src/nemesis-tcp.c	/^static char *tcpoptionsfile = NULL;    \/* IP options file name *\/$/;"	v	file:
+title	src/nemesis-functions.c	/^char title[TITLEBUFFSIZE];$/;"	v
+udp_cmdline	src/nemesis-udp.c	/^static void udp_cmdline(int argc, char **argv)$/;"	f	file:
+udp_exit	src/nemesis-udp.c	/^static int udp_exit(int code)$/;"	f	file:
+udp_initdata	src/nemesis-udp.c	/^static void udp_initdata(void)$/;"	f	file:
+udp_usage	src/nemesis-udp.c	/^static void udp_usage(char *arg)$/;"	f	file:
+udp_validatedata	src/nemesis-udp.c	/^static void udp_validatedata(void)$/;"	f	file:
+udp_verbose	src/nemesis-udp.c	/^static void udp_verbose(void)$/;"	f	file:
+udphdr	src/nemesis-dns.c	/^static UDPhdr udphdr;$/;"	v	file:
+udphdr	src/nemesis-icmp.c	/^static UDPhdr udphdr;$/;"	v	file:
+udphdr	src/nemesis-rip.c	/^static UDPhdr udphdr;$/;"	v	file:
+udphdr	src/nemesis-udp.c	/^static UDPhdr udphdr;$/;"	v	file:
+unroptionsfile	src/nemesis-icmp.c	/^static char *unroptionsfile = NULL;\/* ICMP unreach IP options file *\/$/;"	v	file:
+validtcpflags	src/nemesis-functions.c	/^char *validtcpflags = "FSRPAUEC-";   \/* TCP flag index *\/$/;"	v
+verbose	src/nemesis-functions.c	/^int verbose;    \/* verbosity *\/$/;"	v
+version	src/nemesis-functions.c	/^const char *version = " -=- The NEMESIS Project Version 1.4";$/;"	v
+winstrerror	src/nemesis-functions.c	/^int winstrerror(LPSTR str, int size)$/;"	f
+xgetint16	src/nemesis-functions.c	/^u_int16_t xgetint16(const char *str)$/;"	f
+xgetint32	src/nemesis-functions.c	/^u_int32_t xgetint32(const char *str)$/;"	f
+xgetint8	src/nemesis-functions.c	/^u_int8_t xgetint8(const char *str)$/;"	f
+zero	src/nemesis-functions.c	/^char zero[ETHER_ADDR_LEN];$/;"	v
